@@ -11,9 +11,17 @@ ul{
     margin-right: 100px;
     font-family: Arial, Helvetica, sans-serif;
 }
-ul a{
-    text-decoration: none;
+ul li a {
     color: white;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #f27d0c;
+}
+ul li:hover{
+    color: #f27d0c;
+    cursor: pointer;
 }
 .logo{
     width: 60px;
@@ -34,10 +42,7 @@ ul a{
     cursor: pointer;
       font-size: 35px;
 }
-ul li:hover{
-    color: #f27d0c;
-    cursor: pointer;
-}
+
 .logo_text:hover{
     color: #f27d0c;
     cursor: pointer;
