@@ -1,0 +1,346 @@
+body{
+    background-color:#36121a;
+}
+ul{
+    display: flex;
+    color: white;
+    justify-content: right;
+    list-style: none;
+    gap: 50px;
+    font-size: 18px;
+    margin-right: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    width: 60px;
+    margin-left: 12px;
+}
+.home{
+    height: 560px;
+}
+.logo_text{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top:20px;
+    margin-left: 10px;
+    transition: 2s;
+}
+.logo_text:hover{
+    color: #f27d0c;
+    cursor: pointer;
+      font-size: 35px;
+}
+ul li:hover{
+    color: #f27d0c;
+    cursor: pointer;
+}
+.logo_text:hover{
+    color: #f27d0c;
+    cursor: pointer;
+}
+.logos{
+    margin-right: 320px;
+    display: flex;
+    margin-top: -25px;
+}
+.head1{
+     font-family: "Cookie", cursive;
+     font-size: 50px;
+     /* margin-top: 30px; */
+     color: #f27d0c;
+     font-style: italic;
+     font-weight: 300;
+}
+.head2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 40px;
+     font-size: 30px;
+}
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+}
+.order{
+    background-color: #f27d0c;
+    color: #36121a;
+    border: none;
+    width: 112px;
+    height: 42px;
+    font-weight: bold;
+    font-size:15px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.order:hover{
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+     border: 2px solid white;
+}
+.contact{
+    width: 120px;
+    height: 42px;
+    font-size:12px;
+    border-radius: 30px;
+    font-weight: bold;
+    background-color:transparent;
+    color: white;
+    border: 2px solid white;
+}
+.contact:hover{
+    border: none;
+    border: 2px solid black;
+    background-color:#f27d0c ;
+    cursor: pointer;
+}
+.text{
+    margin-top: 100px;
+    margin-left: 80px;
+    
+}
+.image{
+    display: flex;
+    justify-content: right;
+    margin-top: -380px;
+    margin-right: 120px;
+}
+.cuppic{
+    width: 450px;
+    height:450px;
+    transition:0.4s;
+}
+.cuppic:hover{
+    transform: scale(1.1) rotate(5deg);
+}
+.aboutUs{
+    background-color: white;
+    height: 530px;
+}
+.aboutUs img{
+    width: 320px;
+    height: 320px;
+    border-radius: 160px;
+    margin-top:100px;
+    margin-left: 130px;
+    transition: 2s;
+}
+.aboutUs img:hover{
+    border-radius: 0;
+}
+.aboutText{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -270px;
+    text-transform: uppercase;
+    margin-left: 600px;
+}
+.para{
+    margin-top: -10px;
+    text-transform: none;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+.head3{
+    font-size: 35px;
+    margin-bottom: -2px;
+    margin-left: 280px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ruler1{
+    margin-top: -10px;
+}
+.socialIcons img{
+    width: 30px;
+    height: 22px;
+    margin-left: 20px;
+}
+.socialIcons{
+    margin-left: 280px;
+    margin-top: -90px;
+}
+
+.menu-section{
+   /* margin-bottom: -200px; */
+    background-color:#252525;
+    height: 660px;
+    margin-top: -10px;
+}
+.head4{
+    font-family: Arial, Helvetica, sans-serif;
+    size: 35px;
+    text-transform: uppercase;
+    color: white;
+}
+.ruler{
+    margin-top: -20px;
+}
+.menu-cards{
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 220px;
+    row-gap: 30px;
+    justify-content: center;
+    text-align: center;
+}
+.menu-cards img{
+    width: 120px;
+     transition: 0.4s; 
+}
+.menu-cards img:hover{
+    transform: scale(1.5);
+}
+.menu-cards h1{
+    margin-bottom:-10px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.menu-cards p{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 15px;
+}
+.Testimonals{
+    background-color: #faf4f4;
+    height: 650px;   
+}
+.ruler{
+    margin-top: -20px;
+}
+.head5{
+    font-family: Arial, Helvetica, sans-serif;
+    size: 35px;
+    text-transform: uppercase;
+}
+.comment-section{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    gap: 100px;
+    text-align: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+.comment-section img{
+    border-radius: 300px;
+    width: 80px;
+    height: 80px;
+}
+.comment-section h2{
+    font-family: Arial, Helvetica, sans-serif;
+    size: 8px;
+}
+.comment-section p{
+    size: 8px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dots-image{
+    width: 30px;
+    height: 20px;
+}
+.dot-image{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-left: 650px;
+    margin-top: 20px
+}
+.gallery{
+    height: 780px;
+    background-color: white;
+}
+.head6{
+    text-transform: uppercase;
+    font-size: 35px;
+}
+.ruler{
+    margin-top: -18px;
+}
+.gallery img{
+    height: 270px;
+    width: 350px;
+    margin-left: 20px;
+    margin-top: 20px;
+    transition: 0.4s;
+}
+.gallery img:hover{
+   border-radius: 20px;
+   box-shadow: 0px 8px 20px gray;
+}
+.contact-us{
+    background-color: #faf4f4;
+    height: 450px;
+}
+.ruler{
+    margin-top: -18px;
+}
+.head7{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.ruler{
+    margin-top: -18px;
+}
+.contact-info{
+      font-family: Arial, Helvetica, sans-serif;
+    margin-left: 110px;
+}
+.contact-info img{
+    width: 25px;
+    margin-top: 10px;
+     margin-bottom: -9px;
+   margin-right: 15px;    
+}
+.form{
+    margin-left: 700px;
+    margin-top: -250px;
+}
+
+.form input{
+    width:280px;
+    height: 30px;
+    border: 1px solid rgb(213, 213, 213);
+    border-radius: 8px;
+} 
+textarea{
+    width: 280px;
+    height: 100px;
+    border: 1px solid rgb(213, 213, 213);
+    border-radius: 8px;
+    
+}
+.form button{
+    width: 110px;
+    height: 30px;
+    background-color: #3d141d;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.form button:hover{
+    background-color: #f27d0c;
+    color: #36121a;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px gray;
+}
+.footer{
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    background-color: #252525;
+    font-size: 15px;
+    justify-content: space-around;
+}
+
+.footer div{
+    margin-top: 20px;
+}
